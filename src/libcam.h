@@ -9,8 +9,9 @@
 #define USE_OPENCV 1
 
 #ifdef USE_OPENCV
-#include <cv.h>
-//#include <opencv2/opencv.hpp>
+//#include <cv.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/types_c.h>
 #endif
 
 

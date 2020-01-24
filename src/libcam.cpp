@@ -43,7 +43,8 @@
 #include "libcam.h"
 
 #ifdef USE_OPENCV
-#include <cv.h>
+//#include <cv.h>
+#include <opencv2/opencv.hpp>
 #endif
 
 static void errno_exit (const char *           s)
